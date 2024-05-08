@@ -3,7 +3,7 @@
     <fullName>deploytest__c</fullName>
     <externalId>false</externalId>
     <label>デプロイ確認用の項目</label>
-    <length>255</length>
+    <length>25</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Text</type>
