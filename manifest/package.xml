@@ -4,5 +4,13 @@
 		<members>Account</members>
 		<name>CustomObject</name>
 	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageLayout</name>
+	</types>
+	<types>
+		<members>Account-Account Layout</members>
+		<name>Layout</name>
+	</types>
 	<version>58.0</version>
 </Package>
