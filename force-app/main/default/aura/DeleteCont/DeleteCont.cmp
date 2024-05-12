@@ -1,0 +1,23 @@
+<!-- 基底AuraActionContを継承する -->
+<aura:component extends="c:AuraActionCont">
+    <aura:html tag="style">
+        <!-- アクションモダール -->
+        .slds-modal__container {
+          margin: 0 auto !important;
+          width: 50% !important;
+          max-width: 75rem !important;
+          min-width: 40rem !important;
+        }
+        .slds-p-around--medium {
+          padding: 0 !important;
+          height: fit-content !important;
+          min-height: none !important;
+          max-height: none !important;
+        }
+        .cuf-content {
+          padding: 0 !important;
+        }
+      </aura:html>
+    <!-- LWCのコンポーネント名を指定する -->
+    <aura:attribute name="lwcName" type="String" default="deleteButton" />
+</aura:component>
