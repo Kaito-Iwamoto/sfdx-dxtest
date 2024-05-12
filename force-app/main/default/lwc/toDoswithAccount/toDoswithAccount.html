@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="取引先のToDoリスト" icon-name="custom:custom63">
+        <template if:true={toDoList}>
+            <lightning-datatable
+                data={toDoList}
+                columns={columns}
+                key-field="id"
+            >
+            </lightning-datatable>
+        </template>
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+    </lightning-card>
+</template>

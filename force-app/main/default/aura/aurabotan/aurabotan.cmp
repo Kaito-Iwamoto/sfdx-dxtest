@@ -1,0 +1,7 @@
+<aura:component>
+    <!-- LWCコンポーネントを参照する -->
+    <c:myLWCComponent aura:id="myLWC" />
+
+    <!-- コンポーネントの初期化時にLWCメソッドを呼び出す -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+</aura:component>

@@ -1,0 +1,7 @@
+<!-- Aura コンポーネント -->
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <!-- ボタンをクリックしたときに LWC コンポーネントをロード -->
+    <lightning:button label="Load LWC" onclick="{!c.loadLWC}" />
+    <!-- LWC コンポーネントを表示する領域 -->
+    {!v.body}
+</aura:component>
