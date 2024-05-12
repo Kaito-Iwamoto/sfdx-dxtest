@@ -159,7 +159,7 @@
         <label>日誌名</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Diaries</pluralLabel>
+    <pluralLabel>日誌</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
