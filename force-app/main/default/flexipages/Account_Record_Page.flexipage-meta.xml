@@ -303,18 +303,6 @@
                 <identifier>flexipage_tabset2</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>auraHelloWorld</componentName>
-                <identifier>c_auraHelloWorld</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>AuraUnderstanding1</componentName>
-                <identifier>c_AuraUnderstanding1</identifier>
-            </componentInstance>
-        </itemInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
         <type>Region</type>
