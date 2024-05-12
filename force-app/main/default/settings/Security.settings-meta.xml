@@ -6,8 +6,6 @@
     <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
     <enableCoepHeader>false</enableCoepHeader>
     <enableCoopHeader>false</enableCoopHeader>
-    <enableCrossOrgRedirects>true</enableCrossOrgRedirects>
-    <enablePermissionsPolicy>false</enablePermissionsPolicy>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <networkAccess/>
     <passwordPolicies>
@@ -22,7 +20,6 @@
         <questionRestriction>DoesNotContainPassword</questionRestriction>
     </passwordPolicies>
     <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
-    <sendCspForUncommonClients>false</sendCspForUncommonClients>
     <sessionSettings>
         <allowUserAuthenticationByCertificate>false</allowUserAuthenticationByCertificate>
         <allowUserCertBasedAuthenticationWithOcspValidation>false</allowUserCertBasedAuthenticationWithOcspValidation>
@@ -45,7 +42,6 @@
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
         <enableMFADirectUILoginOptIn>false</enableMFADirectUILoginOptIn>
         <enableOauthCorsPolicy>false</enableOauthCorsPolicy>
-        <enablePermissionsPolicy>false</enablePermissionsPolicy>
         <enablePostForSessions>false</enablePostForSessions>
         <enableSMSIdentity>true</enableSMSIdentity>
         <enableU2F>false</enableU2F>
@@ -53,8 +49,6 @@
         <enforceUserDeviceRevoked>false</enforceUserDeviceRevoked>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
         <forceRelogin>true</forceRelogin>
-        <grantCameraAccess>TrustedUrls</grantCameraAccess>
-        <grantMicrophoneAccess>TrustedUrls</grantMicrophoneAccess>
         <hasRetainedLoginHints>false</hasRetainedLoginHints>
         <hasUserSwitching>true</hasUserSwitching>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
@@ -69,11 +63,9 @@
         <referrerPolicy>true</referrerPolicy>
         <referrerPolicyDirective>origin-when-cross-origin</referrerPolicyDirective>
         <requireHttpOnly>false</requireHttpOnly>
-        <sendCspForUncommonClients>false</sendCspForUncommonClients>
         <sessionTimeout>TwoHours</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
         <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
-        <useEAPIRateLimitForConnectAPI>false</useEAPIRateLimitForConnectAPI>
         <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
     </sessionSettings>
     <singleSignOnSettings>
