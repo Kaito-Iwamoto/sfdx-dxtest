@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable,lightning:isUrlAddressable,force:hasRecordId,force:hasSObjectName"
+  access="global">
+  <aura:attribute name="recordtype" type="String"></aura:attribute>
+  <div class="slds-card">
+    <c:todoListView
+      recordtype="{!v.recordtype}">
+    </c:todoListView>
+  </div>
+</aura:component>

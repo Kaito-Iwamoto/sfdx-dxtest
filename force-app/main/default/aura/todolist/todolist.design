@@ -1,0 +1,9 @@
+<design:component >
+    <design:attribute
+    name="recordtype"
+    label="レコードタイプ"
+    datasource="1.ToDo,2.フォロー依頼"
+    description="ToDoのレコードタイプを選択してください"
+    required="True">
+    </design:attribute>
+</design:component>
