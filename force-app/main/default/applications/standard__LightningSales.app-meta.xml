@@ -46,6 +46,42 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>FlexiPage4</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiPage4</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiPage4</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiPage4</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>FlexiPage1</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Event</pageOrSobjectType>
