@@ -7,6 +7,42 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Service Console</label>
     <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>metakakunin</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.RecordType</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>metakakunin</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.RecordType</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>metakakunin</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.RecordType</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>metakakunin</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.RecordType</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
     <setupExperience>service</setupExperience>
     <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>

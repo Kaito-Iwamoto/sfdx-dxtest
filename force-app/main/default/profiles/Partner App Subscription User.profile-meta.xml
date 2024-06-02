@@ -101,6 +101,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>Diary_test_handler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TemperatureConverter</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -110,6 +114,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ToDoController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>trigger_Learning1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -1714,6 +1722,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Field1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.IsAllDayEvent</field>
         <readable>true</readable>
@@ -2770,6 +2783,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Task.Field1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Task.Type</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3317,6 +3335,10 @@
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Event-ページレイアウトメタ確認</layout>
+        <recordType>Event.RecordType</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Event-交渉履歴</layout>
         <recordType>Event.RecordType1</recordType>
     </layoutAssignments>
@@ -3627,6 +3649,11 @@
         <object>SocialPersona</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.RecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Event.RecordType1</recordType>
