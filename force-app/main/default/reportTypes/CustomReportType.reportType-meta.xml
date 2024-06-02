@@ -186,6 +186,11 @@
             <field>EventSubtype</field>
             <table>Activity</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Field1__c</field>
+            <table>Activity</table>
+        </columns>
         <masterLabel>活動</masterLabel>
     </sections>
 </ReportType>

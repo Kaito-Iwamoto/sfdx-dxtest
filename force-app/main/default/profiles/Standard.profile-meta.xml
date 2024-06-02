@@ -3344,6 +3344,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-行動%28内部%29</layout>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-行動%28内部%29</layout>
         <recordType>Event.RecordType2</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -3964,6 +3968,11 @@
         <object>WorkStepTemplate</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Event.RecordType</recordType>

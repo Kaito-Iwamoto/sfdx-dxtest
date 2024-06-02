@@ -3335,6 +3335,10 @@
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Event-ページレイアウトメタ確認</layout>
         <recordType>Event.RecordType</recordType>
     </layoutAssignments>
@@ -3685,6 +3689,11 @@
         <object>WorkOrder</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Event.RecordType</recordType>
