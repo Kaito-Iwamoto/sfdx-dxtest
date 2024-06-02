@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>FlexiPage5</content>
-        <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Event</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>FlexiPage5</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Event</pageOrSobjectType>
-    </actionOverrides>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
@@ -60,6 +42,24 @@
         <recordType>Event.Internal_Event_metakakunin</recordType>
         <type>Flexipage</type>
         <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiPage5</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>FlexiPage5</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Event</pageOrSobjectType>
+        <recordType>Event.Internal_Event_metakakunin</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
